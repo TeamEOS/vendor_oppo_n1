@@ -145,11 +145,11 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/n1/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/oppo/n1/proprietary/etc/permissions/com.google.widevine.software.drm.xml:system/etc/permissions/com.google.widevine.software.drm.xml \
     vendor/oppo/n1/proprietary/framework/com.google.widevine.software.drm.jar:system/framework/com.google.widevine.software.drm.jar \
-    vendor/oppo/n1/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
     vendor/oppo/n1/proprietary/lib/libdrmdiag.so:system/lib/libdrmdiag.so \
     vendor/oppo/n1/proprietary/lib/libdrmfs.so:system/lib/libdrmfs.so \
     vendor/oppo/n1/proprietary/lib/libdrmtime.so:system/lib/libdrmtime.so \
     vendor/oppo/n1/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
+    vendor/oppo/n1/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
     vendor/oppo/n1/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
     vendor/oppo/n1/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/oppo/n1/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
