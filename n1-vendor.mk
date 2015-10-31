@@ -16,4 +16,12 @@
 
 # Pick up overlay for features that depend on non-open-source files
 
+PRODUCT_PACKAGES += \
+    libtime_genoff \
+    com.qualcomm.location \
+    OppoNvProcess \
+    OppoRadioShutdown \
+    PPPreference \
+    qcrilmsgtunnel
+
 $(call inherit-product, vendor/oppo/n1/n1-vendor-blobs.mk)
